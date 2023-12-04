@@ -11,7 +11,7 @@ namespace EjercicioVentas.NewFolder
         public int Id { get; set; }
         public DateTime  Fecha { get; set;}
         public string Codigo { get; set;} 
-        public float Venta { get; set; }
+        public decimal Venta { get; set; }
         public bool VentaEmpresaGrande { get; set; }
    
     }
